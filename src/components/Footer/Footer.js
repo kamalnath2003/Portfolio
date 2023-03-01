@@ -6,9 +6,56 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-    <div>
-      Footer
-    </div>
+    <FooterWrapper>
+      <LinkList>
+        <LinkColumn>
+          <LinkTitle>Call</LinkTitle>
+          <LinkItem href="tel:8072250051">Kishore</LinkItem>
+          <LinkItem href="tel:8072250051">Kamal</LinkItem>
+          <LinkItem href="tel:8072250051">Akshay</LinkItem>
+          <LinkItem href="tel:8072250051">Kirthick</LinkItem>
+          <LinkItem href="tel:8072250051">Ramnaren</LinkItem>
+          <LinkItem href="tel:8072250051">Kirubakaran</LinkItem>
+        </LinkColumn>
+        <LinkColumn>
+          <LinkTitle>Email</LinkTitle>
+          <LinkItem href="mailto:vkamal2003@gmail.com">
+            kishore2003@gmail.com
+          </LinkItem>
+          <LinkItem href="mailto:vkamal2003@gmail.com">
+            vkamal2003@gmail.com
+          </LinkItem>
+          <LinkItem href="mailto:vkamal2003@gmail.com">
+            kirthick2003@gmail.com
+          </LinkItem>
+          <LinkItem href="mailto:vkamal2003@gmail.com">
+            Akshay3@gmail.com
+          </LinkItem>
+          <LinkItem href="mailto:vkamal2003@gmail.com">
+            Ramnaren@gmail.com
+          </LinkItem>
+          <LinkItem href="mailto:vkamal2003@gmail.com">
+            Ramnaren@gmail.com
+          </LinkItem>
+        </LinkColumn>
+      </LinkList>
+      <SocialIconsContainer>
+        <CompanyContainer>
+          <Slogan>Innovating one project at a time</Slogan>
+        </CompanyContainer>
+        <SocialContainer>
+          <SocialIcons href="https://google.com">
+            <AiFillGithub size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://google.com">
+            <AiFillLinkedin size="3rem" />
+          </SocialIcons>
+          <SocialIcons href="https://google.com">
+            <AiFillInstagram size="3rem" />
+          </SocialIcons>
+        </SocialContainer>
+      </SocialIconsContainer>
+    </FooterWrapper>
   );
 };
 
